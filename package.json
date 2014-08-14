@@ -1,0 +1,25 @@
+{
+  "name": "assets",
+  "version": "0.0.1",
+  "description": "Flexible NodeJS assets manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:xpepermint/assets.js.git"
+  },
+  "author": "xpepermint",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xpepermint/assets.js/issues"
+  },
+  "homepage": "https://github.com/xpepermint/assets.js",
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  },
+  "dependencies": {
+    "underscore": "^1.6.0"
+  }
+}
