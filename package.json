@@ -1,7 +1,7 @@
 {
-  "name": "common-assets",
+  "name": "assets-tasks",
   "version": "0.0.2",
-  "description": "Commong assets manager for NodeJS",
+  "description": "Common assets manager for NodeJS",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
