@@ -1,0 +1,3 @@
+scaffold = {
+  test: 'scaffold works!'
+}

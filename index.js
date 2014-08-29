@@ -1,1 +1,1 @@
-module.exports.Handler = require('./lib/handler');
+module.exports = require('./lib');

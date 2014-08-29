@@ -33,3 +33,7 @@ Assets.js - Flexible NodeJS assets manager
 
   // return asset file destination path
   console.log( handler.path('scripts/main', 'js'));
+
+
+https://github.com/sindresorhus/gulp-rev
+https://www.npmjs.org/package/gulp-include
