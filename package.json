@@ -1,23 +1,55 @@
 {
   "name": "assets-tasks",
   "version": "0.0.2",
-  "description": "Common assets manager for NodeJS",
+  "description": "Common assets tasks for NodeJS.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node --harmony ./node_modules/jasmine-node/bin/jasmine-node ./spec --verbose"
+  },
+  "engines": {
+    "node": ">= 0.11.9"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:xpepermint/assets.js.git"
+    "url": "git://github.com/xpepermint/assets-tasks.git"
   },
+  "keywords": [
+    "asset",
+    "assets",
+    "pipe",
+    "pipeline",
+    "task",
+    "tasks",
+    "automation",
+    "gulp",
+    "plugin",
+    "plugins",
+    "script",
+    "coffee",
+    "style",
+    "stylus",
+    "view",
+    "jade",
+    "image",
+    "images",
+    "font",
+    "fonts",
+    "gzip",
+    "version",
+    "versioning",
+    "manifest",
+    "cache"
+  ],
   "author": "xpepermint",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/xpepermint/assets.js/issues"
+    "url": "https://github.com/xpepermint/assets-tasks/issues"
   },
-  "homepage": "https://github.com/xpepermint/assets.js",
+  "homepage": "https://github.com/xpepermint/assets-tasks",
   "devDependencies": {
-    "jasmine-node": "^1.14.5"
+    "gulp": "^3.8.7",
+    "jasmine-node": "^2.0.0",
+    "koa": "^0.10.0"
   },
   "dependencies": {
     "event-stream": "^3.1.7",
@@ -33,8 +65,6 @@
     "gulp-rimraf": "^0.1.0",
     "gulp-stylus": "^1.3.0",
     "gulp-uglify": "^0.3.2",
-    "koa": "^0.10.0",
-    "koa-static": "^1.4.6",
     "nib": "^1.0.3"
   }
 }
