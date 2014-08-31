@@ -6,7 +6,7 @@ Common assets tasks for NodeJS.
 
 ## Installation
 
-Install the [npm](https://www.npmjs.org/package/assets-tasks) package. This module currently compiles `.coffee`, `.styl` and `.jade` files, `images` and `fonts`, every asset is automatically `versionized` and `gziped`.
+Install the [npm](https://www.npmjs.org/package/assets-tasks) package. This module currently compiles `.coffee`, `.styl`, `.jade`, `images` and `fonts`. Assets are `versionized` and `gziped` on precompile.
 
 ```
 npm install assets-tasks --save
@@ -19,5 +19,9 @@ var assets = require('assets-tasks');
 // clean assets
 assets.clean();
 // precompile
+assets.compile();
+// precompile
 assets.precompile();
+// read precompiled asset name
+assets.assetPath('originalFileName.css'); // e.g. originalFileName.28djamb321.css
 ```
